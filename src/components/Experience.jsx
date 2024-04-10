@@ -7,7 +7,10 @@ import reactImage from "../assets/react.png";
 
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
-
+import ionic from "../assets/ionic.png";
+import typescript from "../assets/Typescript.png";
+import android from "../assets/Android.jpg";
+import ios from "../assets/ios.jpeg";
 
 const Experience = () => {
   const techs = [
@@ -46,6 +49,36 @@ const Experience = () => {
       id: 6,
       src: github,
       title: "GitHub",
+      style: "shadow-gray-400",
+    },
+
+    {
+      id: 6,
+      src: ionic,
+      title: "Ionic",
+      style: "shadow-gray-400",
+    }
+    ,
+
+    {
+      id: 6,
+      src: typescript,
+      title: "TypeScript",
+      style: "shadow-gray-400",
+    }
+    ,
+
+    {
+      id: 6,
+      src: android,
+      title: "Android",
+      style: "shadow-gray-400",
+    }   ,
+
+    {
+      id: 6,
+      src: ios,
+      title: "ios",
       style: "shadow-gray-400",
     },
 

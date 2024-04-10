@@ -2,7 +2,8 @@ import React from "react";
 import arrayDestruct from "../assets/image1.png";
 import navbar from "../assets/image3.png";
 import reactParallax from "../assets/image2.png";
-
+import navbar1 from "../assets/MyWork.jpeg";
+import navbar2 from "../assets/MyWork1.jpeg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -17,6 +18,15 @@ const Portfolio = () => {
     {
       id: 3,
       src: navbar,
+    }
+    ,
+    {
+      id: 4,
+      src: navbar1,
+    },
+    {
+      id: 5,
+      src: navbar2,
     },
 
   ];

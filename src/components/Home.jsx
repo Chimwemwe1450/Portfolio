@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroImage from '../assets/myPicture(1).png'
+import HeroImage from '../assets/MyProfile.jpeg'
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -16,9 +16,9 @@ const Home = () => {
             I'm a Front End Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have 2 years of experience building and desgining software.
+            I have 3 years of experience building and desgining software.
             Currently, I love to work on web application using technologies like
-            React, Tailwind, bootstrap4+.
+            React, Tailwind, bootstrap4+ . I have  also recently joined Lava lamp where by i have worked with ionic angular developing mobile applications  mainly worked with trading applications 
           </p>
 
           <div>
@@ -38,11 +38,12 @@ const Home = () => {
         </div>
 
         <div>
-          <img
-            src={HeroImage}
-            alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
-          />
+        <img
+  src={HeroImage}
+  alt="my profile"
+  className="rounded-2xl mx-auto w-1/3 md:w-1/2" // Adjusted width classes
+/>
+
         </div>
       </div>
     </div>
